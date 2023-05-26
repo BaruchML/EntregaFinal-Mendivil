@@ -256,7 +256,7 @@ nav {
 /*SHOP*/
 .contenedor_principal_shop {
     display: grid;
-    background-color: rgb(177, 238, 11);
+    background-color: rgb(255, 255, 255);
     grid-template-columns: 100vw;
     grid-template-rows: 60vh 215vh 5vh;
     grid-template-areas: "header_shop"
@@ -291,7 +291,7 @@ nav {
 
 .pie_pagina_shop {
     display: flex;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     justify-content: flex-start;
     grid-area: "pie_pagina_shop";
     align-items: center;
@@ -306,7 +306,7 @@ nav {
 @media screen and (min-width: 576px) {
     .contenedor_principal_shop {
         display: grid;
-        background-color: rgb(177, 238, 11);
+        background-color: rgb(255, 255, 255);
         grid-template-columns: 100vw;
         grid-template-rows: 20vh 115vh 5vh;
         grid-template-areas: "header_shop"
@@ -326,7 +326,7 @@ nav {
 @media screen and (min-width: 720px) {
     .contenedor_principal_shop {
         display: grid;
-        background-color: rgb(177, 238, 11);
+        background-color: rgb(255, 255, 255);
         grid-template-columns: 100vw;
         grid-template-rows: 20vh 115vh 5vh;
         grid-template-areas: "header_shop"
@@ -343,7 +343,7 @@ nav {
 @media screen and (min-width: 1200px) {
     .contenedor_principal_shop {
         display: grid;
-        background-color: rgb(177, 238, 11);
+        background-color: rgb(255, 255, 255);
         grid-template-columns: 100vw;
         grid-template-rows: 20vh 75vh 5vh;
         grid-template-areas: "header_shop"
