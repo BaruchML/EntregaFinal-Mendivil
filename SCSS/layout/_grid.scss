@@ -1,0 +1,167 @@
+/*index*/
+.contenedor_principal {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 55vh 40vh 5vh;
+    grid-template-areas: "encabezado"
+        "contenido_principal"
+        "pie_de_pagina"
+}
+
+header {
+    grid-area: "encabezado";
+    display: flex;
+    flex-direction: column;
+    justify-items: end;
+    align-items: center;
+}
+
+.contenedor_main {
+    background-color: rgb(255, 255, 255);
+    grid-area: "contenido_principal";
+    display: flex;
+    align-items: center;
+}
+
+.pie_de_pagina {
+    display: flex;
+
+    justify-content: flex-start;
+    grid-area: "pie_de_pagina";
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*SHOP*/
+.contenedor_principal_shop {
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    grid-template-columns: 100vw;
+    grid-template-rows: .40fr 2fr .25fr;
+    grid-template-areas: "header_shop"
+        "contenedor_main_shop"
+        "pie_pagina_shop";
+
+}
+
+.header_shop {
+    grid-area: "header_shop";
+}
+
+.contenedor_main_shop {
+    grid-area: "contenedor_main_shop";
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.pie_pagina_shop {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: flex-start;
+    grid-area: "pie_pagina_shop";
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/*SERVICIOS*/
+.contenedor_principal_servicios {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: .30fr 1.5fr .10fr;
+    grid-template-areas: "header_serv"
+        "contenedor_main_serv"
+        "pie_de_pagina_serv"
+}
+
+.header_servicios {
+    grid-area: "header_serv";
+}
+
+.contenedor_main_serv {
+
+    grid-area: "contenidor_main_serv";
+}
+
+.pie_de_pagina_serv {
+    display: flex;
+    justify-content: flex-start;
+    grid-area: "pie_de_pagina_serv";
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*NOSOTROS*/
+.contenedor_principal_nosotros {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: .70fr 3.5fr .01fr; 
+    grid-template-areas: "header_nosotros"
+        "contenedor_main_nosotros"
+        "pie_de_pagina_nosotros";
+}
+.header_nosotros {
+    grid-area: "header_nosotros";
+}
+
+.contenedor_main_nosotros{
+    grid-area: "contenedor_main_nosotros";
+    
+    
+}
+
+.pie_de_pagina_nosotros {
+    display: flex;
+    justify-content: flex-start;
+    grid-area: "pie_de_pagina_nosotros";
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+/*CONTACTO*/
+.contenedor_principal_contacto {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: .70fr 1.5fr .01fr; 
+    grid-template-areas: "header_contacto"
+        "contenedor_main_contacto"
+        "pie_de_pagina_contacto";
+}
+.header_contacto {
+    grid-area: "header_contacto";
+}
+
+.contenedor_form{
+    grid-area: "contenedor_main_contacto";
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.pie_de_pagina_contacto {
+    display: flex;
+    justify-content: flex-start;
+    grid-area: "pie_de_pagina_contacto";
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.img_contacto img{
+    width:85%;
+    align-self:center;
+    transform: rotate(15deg);
+    transform: skewX(30deg);
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 3px;
+    border-color:black
+}

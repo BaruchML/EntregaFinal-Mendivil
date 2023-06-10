@@ -1,0 +1,106 @@
+/*576 INDEX*/
+@media screen and (min-width: 576px) {
+    .contenedor_principal {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 30vh 65vh 5vh;
+        grid-template-areas: "encabezado"
+            "contenido_principal"
+            "pie_de_pagina"
+    }
+
+    header {
+        background-color: rgb(255, 255, 255);
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    nav {
+
+        width: 70%;
+    }
+
+    .barra_de_navegacion {
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+}
+/*576 SHOP*/
+@media screen and (min-width: 576px) {
+    .contenedor_principal_shop {
+        display: grid;
+        background-color: rgb(255, 255, 255);
+        grid-template-columns: 100vw;
+        grid-template-rows: 20vh 115vh 5vh;
+        grid-template-areas: "header_shop"
+            "contenedor_main_shop"
+            "pie_pagina_shop";
+    }
+
+    .barra_lateral_shop {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+    }
+}
+
+/*576 SERV*/
+@media screen and (min-width: 576px) {
+    .contenedor_principal_serv {
+        display: grid;
+        background-color: rgb(255, 255, 255);
+        grid-template-columns: 100vw;
+        grid-template-rows: 20vh 115vh 2vh;
+        grid-template-areas: "header_shop"
+            "contenedor_main_shop"
+            "pie_pagina_shop";
+    }
+
+    .barra_lateral_serv {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+    }
+    .texto_serv{
+        font-size: 20px;
+    }
+  
+}/*576 SERV*/
+@media screen and (min-width: 576px) {
+    .contenedor_principal_serv {
+        display: grid;
+        background-color: rgb(255, 255, 255);
+        grid-template-columns: 100vw;
+        grid-template-rows: 20vh 115vh 2vh;
+        grid-template-areas: "header_shop"
+            "contenedor_main_shop"
+            "pie_pagina_shop";
+    }
+
+    .barra_lateral_serv {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+    }
+    .texto_serv{
+        font-size: 20px;
+    }
+
+    /*576 NOSOTROS */
+@media screen and (min-width: 576px) {
+    .contenedor_principal_nosotros {
+        display: grid;
+        background-color: rgb(255, 255, 255);
+        grid-template-columns: 100vw;
+        grid-template-rows: .70fr 3.5fr .01fr;
+        grid-template-areas: "header_nosotros"
+            "contenedor_main_nosotros"
+            "pie_pagina_nosotros";
+    }
+
+}    
+}
