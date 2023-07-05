@@ -4,7 +4,7 @@
     .contenedor_principal {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 1fr 4.80fr .25fr;
+        grid-template-rows: 1fr 6.80fr .25fr;
         grid-template-areas: "encabezado"
             "contenido_principal"
             "pie_de_pagina"
@@ -55,7 +55,7 @@
         display: grid;
         background-color: rgb(255, 255, 255);
         grid-template-columns: 100vw;
-        grid-template-rows: .35fr 2fr .30fr;
+        grid-template-rows: .10fr 2fr .30fr;
         grid-template-areas: "header_shop"
             "contenedor_main_shop"
             "pie_pagina_shop";

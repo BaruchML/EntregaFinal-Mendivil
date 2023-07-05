@@ -11,7 +11,14 @@
 .barra_lateral_shop {
     width: 35%;
     justify-content: space-around;
+    height: 350px;
 
+
+}
+
+.barra_lateral_shop li{
+    font-size: 20px;
+    
 }
 .contenedor_suministro {
     width: 50%;
@@ -33,10 +40,12 @@
 
 .articulos {
     width: 65%;
+    max-width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin:auto
 }
 .contenedor_main_serv{
     display: flex;
@@ -48,9 +57,10 @@
 .barra_lateral_serv{
     width:30%;
     font-size: 14px;
+    height: 350px;
 }
-.barra_lateral_serv h3{
-font-size: 16px;
+.barra_lateral_serv li{
+    font-size: 20px;
 }
 .section_serv{
     width: 70%;
@@ -66,5 +76,9 @@ font-size: 16px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+.contenedor_main_nosotros p{
+    font-size: 25px;
 }
 

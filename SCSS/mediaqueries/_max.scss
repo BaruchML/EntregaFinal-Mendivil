@@ -45,7 +45,7 @@
         display: grid;
         background-color: rgb(255, 255, 255);
         grid-template-columns: 100vw;
-        grid-template-rows: .40fr 2fr .10fr;
+        grid-template-rows: .10fr 2fr .10fr;
         grid-template-areas: "header_shop"
             "contenedor_main_shop"
             "pie_pagina_shop";
@@ -96,7 +96,7 @@
          display: grid;
         background-color: rgb(255, 255, 255);
             grid-template-columns: 100vw;
-            grid-template-rows: .70fr 5fr .01fr;
+            grid-template-rows: .70fr 7fr .01fr;
             grid-template-areas: "header_nosotros"
                 "contenedor_main_nosotros"
                 "pie_pagina_nosotros";

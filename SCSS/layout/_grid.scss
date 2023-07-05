@@ -69,7 +69,7 @@ header {
 .contenedor_principal_servicios {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: .30fr 1.5fr .10fr;
+    grid-template-rows: .30fr 5.8fr .10fr;
     grid-template-areas: "header_serv"
         "contenedor_main_serv"
         "pie_de_pagina_serv"
